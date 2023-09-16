@@ -1,0 +1,50 @@
+#form {
+  margin-top: 64px;
+  display: flex;
+  gap: 12px;
+}
+
+#form > input {
+  font-size: 16px;
+
+  height: 48px;
+  width: 450px;
+
+  border: none;
+  border-radius: 5px;
+
+  color: #fff;
+  background-color: #202024;
+
+  padding: 0 12px;
+}
+
+#form > input:focus /*focus: borda que aparece quando vai digitar*/ {
+  outline: 2px solid #8257e5;
+}
+
+#form > input:valid /*valid: quando for válido*/ {
+  background-color: #202024;
+}
+
+#form > button {
+  height: 48px;
+  width: 48px;
+
+  border: none;
+  border-radius: 5px;
+  
+  background-color: #8257e5;
+
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#form > button:hover {
+  background-color: #633bbc;
+}
+
+#form > button i {
+  font-size: 24px;
+  color: #fff;
+}
